@@ -1,8 +1,13 @@
 #!/usr/bin/env bash
 
 url=$1
+author=$2
 today=`date +"%Y-%m-%d"`
-crawler "$1" ".feed_item h2" |grep $today |html2text -utf8\
-	|sed "s/ *分享$//g" \
-	|sed -e "s/^## *\[ \([^\[]\+\) \](\([^)]\+\)) \+\([^ ]\+\)$/\2^\1^\3/g"  \
-	|sed -e "/^ *$/d" -e "s#^#http://chuansong.me#g"
+
+crawler "$url" "a.question_link, .timestamp"  \
+	| tr -d "\n"  \
+	| sed -e"s/<\/span>/\n/g" -e 's/href="/>/g' -e 's/" target/</g' -e "s/<[^>]\+>/^/g"  \
+	| sed -e "s/^ *\^//" -e "s/\^\^/^/g" \
+	| grep "$today" \
+	| sed "s#^#http://chuansong.me#" \
+	| sed "s/^/$author\^/"
