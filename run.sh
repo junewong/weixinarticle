@@ -7,7 +7,7 @@ log (){
 }
 
 date=$1
-if [[ "date" = "" ]];then
+if [[ "$date" = "" ]];then
 	date=`date +"%Y-%m-%d"`
 fi
 
@@ -16,7 +16,7 @@ index="htmls/index.html"
 
 log "running for $date ..."
 git pull
-./multicrawl.sh
+./multicrawl.sh $date
 ./convert2html.sh origin_contet.txt > $file
 cp $file $index
 log "Done"

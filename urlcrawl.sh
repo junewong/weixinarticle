@@ -3,7 +3,7 @@
 url=$1
 author=$2
 date=$3
-if [[ "date" = "" ]];then
+if [[ "$date" = "" ]];then
 	date=`date +"%Y-%m-%d"`
 fi
 
