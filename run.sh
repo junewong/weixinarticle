@@ -14,7 +14,7 @@ fi
 file="htmls/${date}.html"
 index="htmls/index.html"
 
-log "Starting ..."
+log "running for $date ..."
 git pull
 ./multicrawl.sh
 ./convert2html.sh origin_contet.txt > $file
