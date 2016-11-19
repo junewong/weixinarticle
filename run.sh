@@ -6,9 +6,12 @@ log (){
 	echo "[$time] $*" |tee -a logs/${today}.log
 }
 
-today=`date +"%Y-%m-%d"`
+date=$1
+if [[ "date" = "" ]];then
+	date=`date +"%Y-%m-%d"`
+fi
 
-file="htmls/${today}.html"
+file="htmls/${date}.html"
 index="htmls/index.html"
 
 log "Starting ..."
