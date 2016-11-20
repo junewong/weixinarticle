@@ -62,8 +62,8 @@ echo '
 
 cat $file |while read line
 do
-	author=`echo $line |cut -d"^" -f1`
-	url=`echo $line |cut -d"^" -f2`
+	url=`echo $line |cut -d"^" -f1`
+	author=`echo $line |cut -d"^" -f2`
 	title=`echo $line |cut -d"^" -f3`
 	date=`echo $line |cut -d"^" -f4`
 	echo "

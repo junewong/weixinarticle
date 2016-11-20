@@ -13,4 +13,4 @@ crawler "$url" "a.question_link, .timestamp"  \
 	| sed -e "s/^ *\^//" -e "s/\^\^/^/g" \
 	| grep "$date" \
 	| sed "s#^#http://chuansong.me#" \
-	| sed "s/^/$author\^/"
+	| sed "s/\^/\^$author\^/"

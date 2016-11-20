@@ -1,3 +1,4 @@
+#!/bin/bash
 source /home/pi/.wxrc
 
 log (){

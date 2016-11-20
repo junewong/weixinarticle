@@ -10,6 +10,6 @@ do
 	author=`echo $line |cut -d" " -f2`
 	./urlcrawl.sh $url $author $date
 
-done |sort -t "^" -k2 -nr > $file
+done |sort -nr > $file
 
 cp $file ./htmls/data/${date}.txt
