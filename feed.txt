@@ -14,3 +14,5 @@ http://chuansong.me/account/buzhidushu 不止读书
 http://chuansong.me/account/zuiheikeji 最黑科技
 http://chuansong.me/account/geekpark 极客公园
 http://chuansong.me/account/sanbiao1984 三表龙门
+http://chuansong.me/account/wxieshuo 歪理邪说
+http://chuansong.me/account/coderstory 神秘的程序员

@@ -14,14 +14,16 @@ fi
 file="htmls/${date}.html"
 index="htmls/index.html"
 
-log "running for $date ..."
+log "Running for $date ..."
 git pull
 ./multicrawl.sh $date
 ./convert2html.sh origin_contet.txt > $file
 cp $file $index
-log "Done"
+log "done"
 
 log "try to callback $WX_CAllBACk ..."
 if [[ -e "$WX_CAllBACk" ]];then
 	sh $WX_CAllBACk
 fi
+
+log "End"
