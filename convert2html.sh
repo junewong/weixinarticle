@@ -6,7 +6,7 @@ echo '
 <head>
 	<meta charset="UTF-8">
 	<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-	<title>微信公众号文章</title>
+	<title>微信订阅号文章</title>
 	<style>
 	.mutted {
 		color:rgb(85,85,85);
@@ -26,11 +26,37 @@ echo '
 		text-decoration:none;
 	}
 	.item p {
-		line-height: 10px;
+		line-height: 14px;
+	}
+	nav {
+		width:100%;
+		padding-bottom:2px;
+		text-align:center;
+		background-color:skyblue;
+		margin-bottom:10px;
+	}
+	nav h1 {
+		padding-top:16px;
+		color:white;
+		font-size: 18px;
+	}
+	.footer {
+		wdith:100%;
+		text-align:center;
+	}
+	.footer a{
+		color:darkgray;
+		font-size:16px;
+		text-decoration:none;
+		padding-top: 20px;
+		padding-bottom: 20px;
 	}
 	</style>
 </head>
 <body>
+	<nav>
+		<h1>微信订阅号文章</h1>
+	</nav>
 '
 	
 
@@ -49,7 +75,10 @@ do
 
 done
 
-echo "
+echo '
+	<div class="footer">
+		<span><a href="./list.html"> 查看历史文章</a></span>
+	</div>
 </body>
 </html>
-"
+'

@@ -17,13 +17,13 @@ index="htmls/index.html"
 log "Running for $date ..."
 git pull
 ./multicrawl.sh $date
-./convert2html.sh origin_contet.txt > $file
+./convert2html.sh tmp_data.txt  > $file
 cp $file $index
 log "done"
 
 log "try to callback $WX_CAllBACk ..."
-if [[ -e "$WX_CAllBACk" ]];then
-	sh $WX_CAllBACk
+if [[ -e "$WX_CALLBACK" ]];then
+	$WX_CALLBACK
 fi
 
 log "End"

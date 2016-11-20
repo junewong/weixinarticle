@@ -2,7 +2,7 @@
 
 date=$1
 
-file="origin_contet.txt"
+file="tmp_data.txt"
 
 cat feed.txt | sed -e "/^ *$/d" -e "s/ \+/ /g" |while read line
 do 
@@ -11,3 +11,5 @@ do
 	./urlcrawl.sh $url $author $date
 
 done |sort -t "^" -k2 -nr > $file
+
+cp $file ./htmls/data/${date}.txt
