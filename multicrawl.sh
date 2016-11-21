@@ -10,7 +10,7 @@ do
 	author=`echo $line |cut -d" " -f2`
 	>&2 echo $url $author
 	./urlcrawl.sh $url $author $date
-	rand=`awk -v min=5 -v max=12 'BEGIN{srand(); print int(min+rand()*(max-min+1))}'`
+	rand=`awk -v min=5 -v max=10 'BEGIN{srand(); print int(min+rand()*(max-min+1))}'`
 	>&2 echo "sleep $rand ..."
 	sleep $rand
 
