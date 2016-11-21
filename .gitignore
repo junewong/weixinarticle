@@ -3,7 +3,7 @@
 *.swp
 *.swo
 *.orig
-htmls/
+htmls
 logs/*
 tmp_data.txt
 origin_contet.txt
