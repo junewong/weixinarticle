@@ -22,7 +22,7 @@ git pull
 cp $file $index
 log "done"
 
-log "try to callback $WX_CAllBACk ..."
+log "try to callback $WX_CALLBACK ..."
 if [[ -e "$WX_CALLBACK" ]];then
 	$WX_CALLBACK
 fi
