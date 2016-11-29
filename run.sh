@@ -1,5 +1,5 @@
 #!/bin/bash
-source /home/pi/.wxrc
+source $HOME/.wxrc
 
 log (){
 	today=`date +"%Y-%m-%d"`
