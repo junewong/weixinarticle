@@ -24,7 +24,9 @@ log "done"
 
 log "try to callback $WX_CALLBACK ..."
 if [[ -e "$WX_CALLBACK" ]];then
-	$WX_CALLBACK
+	sh $WX_CALLBACK
+else
+	echo "$WX_CALLBACK not found!"
 fi
 
 log "End"
