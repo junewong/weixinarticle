@@ -2,6 +2,7 @@ http://chuansong.me/account/zhihuribao 知乎日报
 http://chuansong.me/account/zhihujingxuan_weixin 知乎精选
 http://chuansong.me/account/huxiu_com 虎嗅网
 http://chuansong.me/account/gh_5906530d307c 机器学习研究会
+http://chuansong.me/account/wowjiemian 界面
 http://chuansong.me/account/AskGuokr 果壳问答
 http://chuansong.me/account/read01 warfalcon
 http://chuansong.me/account/infoqchina InfoQ
@@ -22,9 +23,7 @@ http://chuansong.me/account/almosthuman2014 机器之心
 http://chuansong.me/account/wepingwest PingWest品玩
 http://chuansong.me/account/mobileweb 移动观察
 http://chuansong.me/account/sciencenews Science
-http://chuansong.me/account/cygz999 创意果子
 http://chuansong.me/account/TechCrunchChina TechCrunch中国
-http://chuansong.me/account/adult_toy 大人的玩具
 http://chuansong.me/account/soloist_xucen 许岑
 http://chuansong.me/account/wwh_33330533 ItTalks
 http://chuansong.me/account/duyaoapp 毒药
@@ -40,11 +39,8 @@ http://chuansong.me/account/TencentMonthly 腾讯文化
 http://chuansong.me/account/readeep 深度阅读
 http://chuansong.me/account/kesoview keso怎么看
 http://chuansong.me/account/WebNotes 小道消息
-http://chuansong.me/account/zhaijidi998 宅基弟
 http://chuansong.me/account/coolbuy 玩物志
 http://chuansong.me/account/deardongdongqiang 东东枪
-http://chuansong.me/account/xiachufang 下厨房
-http://chuansong.me/account/bzbkcri 边走边看
 http://chuansong.me/account/read-douban 豆瓣阅读
 http://chuansong.me/account/kidslab 婴幼儿心理
 http://chuansong.me/account/ifanr 爱范儿
@@ -52,7 +48,6 @@ http://chuansong.me/account/oh-hard 硬派健身
 http://chuansong.me/account/sanjieke 三节课
 http://chuansong.me/account/alibabatech 阿里技术嘉年华
 http://chuansong.me/account/batfun BAT
-http://chuansong.me/account/pupa-123 二次元观察
 http://chuansong.me/account/gh_ea2ff522308b 数学人生
 http://chuansong.me/account/haoxi2014 好戏
 http://chuansong.me/account/yysaag 游戏研究社
@@ -73,11 +68,8 @@ http://chuansong.me/account/programmer_life 程序人生
 http://chuansong.me/account/iProgrammer 程序员的那些事
 http://chuansong.me/account/socialab 老金扯谈
 http://chuansong.me/account/taimeiti 钛媒体
-http://chuansong.me/account/ciweekly 互联网周刊
 http://chuansong.me/account/techread 阑夕
-http://chuansong.me/account/iheima i黑马
-http://chuansong.me/account/chuangxin2009 创新工场
-http://chuansong.me/account/wowjiemian 界面
 http://chuansong.me/account/lifeweek 三联生活周刊
 http://chuansong.me/account/thefair2 新世相
+http://chuansong.me/account/meituantech 美团点评技术团队
 http://chuansong.me/account/gh_c472519247d2 飞总的IT世界面面
